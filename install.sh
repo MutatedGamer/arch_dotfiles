@@ -36,6 +36,8 @@ sudo mv etc/cups /etc/cups
 sudo mv etc/lightdm/lightdm-webkit2-greeter.conf /etc/lightdm/
 sudo mv etc/lightdm/lightdm.conf /etc/lightdm
 
+sudo cp .wallpapers/bg.jpg /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/wallpapers/space-1.jpg 
+
 # Install Vundle plugins
 vim +PluginInstall +qall
 
