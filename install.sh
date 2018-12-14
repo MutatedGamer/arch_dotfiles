@@ -31,6 +31,7 @@ cp .vimrc ~
 cp .Xauthority ~
 cp .xinitrc /
 cp -r .vim ~
+cp -r .scripts ~
 
 # Copy cups and lightdm settings
 sudo mv /etc/cups /etc/cups.old

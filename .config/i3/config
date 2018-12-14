@@ -205,8 +205,7 @@ exec_always --no-startup-id feh --bg-fill ~/.wallpapers/bg.jpg
 exec --no-startup-id pulseaudio --start 
 
 # Polybar Spotify integration
-exec --no-startup-id sudo rm /tmp/mname.txt
-exec --no-startup-id polybar -r top & echo $! >> /tmp/mname.txt
+exec --no-startup-id polybar -r top & echo $! > /tmp/mname.txt
 exec --no-startup-id ~/.scripts/spotify/launchlistener.sh
 
 

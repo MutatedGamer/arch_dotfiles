@@ -272,7 +272,7 @@ format-underline = ${bar/top.primary}
 [module/spotify]
 type = custom/ipc
 hook-0 = echo ""
-hook-1 = python3 ~/scripts/spotify/spotify_status.py
+hook-1 = python3 ~/.scripts/spotify/spotify_status.py
 initial = 1
 line-size = 1
 format-underline = ${bar/top.primary}
