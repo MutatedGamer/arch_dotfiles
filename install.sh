@@ -43,6 +43,9 @@ sudo cp etc/lightdm/lightdm.conf /etc/lightdm
 
 sudo cp .wallpapers/bg.jpg /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/wallpapers/space-1.jpg 
 
+# Copy Equilix theme
+sudo cp -r Equilix /usr/share/themes/
+
 # Install Vundle plugins
 vim +PluginInstall +qall
 
