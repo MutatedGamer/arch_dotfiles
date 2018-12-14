@@ -271,6 +271,7 @@ libsm
 libsndfile
 libsoup
 libsoxr
+libreoffice-fresh
 libssh
 libssh2
 libstemmer
@@ -526,6 +527,7 @@ texlive-bin
 texlive-core
 texstudio
 thin-provisioning-tools
+thunderbird
 tmux
 tracker
 tslib
