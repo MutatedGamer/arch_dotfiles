@@ -29,7 +29,7 @@ cp .bashrc ~
 cp .compton.conf ~
 cp .vimrc ~
 cp .Xauthority ~
-cp .xinitrc /
+cp .xinitrc ~
 cp -r .vim ~
 cp -r .scripts ~
 
