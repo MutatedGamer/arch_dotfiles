@@ -4,6 +4,9 @@ cd yay || exit
 makepkg -si
 cd ..
 
+# Update system
+pacman -Syu
+
 # Install packages 
 pacman -S --needed - < pkglist.txt
 yay -S $(cat aurpkgs.txt)
