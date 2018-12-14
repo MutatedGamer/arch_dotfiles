@@ -24,7 +24,6 @@ binutils
 bison
 boost-libs
 brotli
-bspwm
 btrfs-progs
 bubblewrap
 bzip2
@@ -100,10 +99,6 @@ glib-networking
 glib2
 glibc
 gmp
-gnome-autoar
-gnome-backgrounds
-gnome-desktop
-gnome-terminal
 gnupg
 gnutls
 go
@@ -134,7 +129,6 @@ gvfs
 gzip
 harfbuzz
 harfbuzz-icu
-hicolor-icon-theme
 hplip
 hspell
 hunspell
@@ -371,7 +365,6 @@ mutt
 nano
 nautilus
 nautilus-sendto
-ncmpcpp
 ncurses
 ndctl
 neofetch
