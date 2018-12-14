@@ -201,13 +201,13 @@ gaps outer 5
 smart_borders on
 for_window [class="^.*"] border pixel 0
 exec --no-startup-id xrandr --output VGA-1 --mode 1920x1080
-exec_always --no-startup-id feh --bg-fill ../../.wallpapers/bg.jpg
+exec_always --no-startup-id feh --bg-fill ~/.wallpapers/bg.jpg
 exec --no-startup-id pulseaudio --start 
 
 # Polybar Spotify integration
 exec --no-startup-id sudo rm /tmp/mname.txt
 exec --no-startup-id polybar -r top & echo $! >> /tmp/mname.txt
-exec --no-startup-id ../../.scripts/spotify/launchlistener.sh
+exec --no-startup-id ~/.scripts/spotify/launchlistener.sh
 
 
 for_window [class="Nautilus"] focus
