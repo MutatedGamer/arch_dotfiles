@@ -1,3 +1,4 @@
+qt5-styleplugins
 a52dec
 aalib
 accountsservice

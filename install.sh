@@ -30,6 +30,7 @@ cp .compton.conf ~
 cp .vimrc ~
 cp .Xauthority ~
 cp .xinitrc ~
+cp .profile ~
 cp -r .vim ~
 cp -r .scripts ~
 
