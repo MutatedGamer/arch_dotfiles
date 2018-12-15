@@ -1,4 +1,4 @@
-# install yay
+#install yay
 git clone https://aur.archlinux.org/yay.git
 cd yay || exit
 makepkg -si

@@ -550,9 +550,6 @@ vi
 vid.stab
 vim
 vim-runtime
-virtualbox-guest-dkms
-virtualbox-guest-iso
-virtualbox-guest-utils
 volume_key
 vte-common
 vte3
