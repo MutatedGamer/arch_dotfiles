@@ -337,6 +337,7 @@ libyaml
 licenses
 lightdm
 lightdm-webkit2-greeter
+light-locker
 linux
 linux-api-headers
 linux-firmware
