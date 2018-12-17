@@ -31,6 +31,7 @@ cp .vimrc ~
 cp .Xauthority ~
 cp .xinitrc ~
 cp .profile ~
+cp .face ~
 cp -r .vim ~
 cp -r .scripts ~
 
