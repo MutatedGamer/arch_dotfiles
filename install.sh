@@ -8,7 +8,7 @@ cd ..
 pacman -Syu
 
 # Install packages 
-sudo pacman -S --needed - < pkglist.txt
+sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort pkglist.txt))
 yay -S $(cat aurpkgs.txt)
 
 # Remove old files

@@ -1,4 +1,3 @@
-google-chrome
 libspotify
 lightdm-webkit-theme-aether
 otf-font-awesome-4
