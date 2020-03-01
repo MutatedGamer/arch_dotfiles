@@ -8,6 +8,6 @@ spotify
 termsyn-font
 ttf-font-awesome-4
 ttf-material-icons
-ttf-symbola
+ttf-symbola-free
 libspotify
 yay

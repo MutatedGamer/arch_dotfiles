@@ -9,7 +9,7 @@ pacman -Syu
 
 # Install packages 
 sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort pkglist.txt))
-yay -S $(cat aurpkgs.txt)
+yay -S --needed $(comm -12 <(yay -Slq | sort) <(sort pkglist.txt))
 
 # Remove old files
 mv ~/.config ~/config.old
