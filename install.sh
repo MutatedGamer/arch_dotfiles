@@ -9,7 +9,7 @@ pacman -Syu
 
 # Install packages 
 sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort pkglist.txt))
-yay -S --needed $(comm -12 <(yay -Slq | sort) <(sort pkglist.txt))
+yay -S --needed $(comm -12 <(yay -Slq | sort) <(sort aurpkgs.txt))
 
 # Remove old files
 mv ~/.config ~/config.old
@@ -60,6 +60,7 @@ sudo systemctl enable lightdm.service
 sudo systemctl enable orgs.cups.cupsd.service
 sudo systemctl enable systemd-timesyncd.service
 sudo systemctl enable org.cups.cupsd.socket
+sudo systemctl enable canberra-system-bootup
 
 # Install powerline fonts
 git clone https://github.com/powerline/fonts.git
